@@ -31,7 +31,7 @@ const renderProducts = (currentsList, currentProducts) => {
 		li.className = 'product__container';
 		li.innerHTML = `
       <div class='product__photo'>
-        <img src=${photo} class='image'>
+        <img src=${photo} class='image' alt='photo of ${name}'>
       </div>
 			<div class='product__info'>
 				<h3 class='product__name'>${name}</h3>

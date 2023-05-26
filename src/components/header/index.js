@@ -12,7 +12,7 @@ export const renderHeader = () => {
 	const currentThemeIcon = getCurrentThemeIcon();
 
 	header.innerHTML = `
-  <button class='header__burger button'><img class='header__burger-icon' src=${burger}></img></button>
+  <button class='header__burger button'><img class='header__burger-icon' src=${burger} alt='burger icon'></img></button>
   <div class='header__contents'>
     <span class='header__title'>Входное задание</span>
     <nav class='navigation__container'>
@@ -20,7 +20,7 @@ export const renderHeader = () => {
       </ul>
     </nav>
     <button class=' header__theme-button'>
-      <img class='header__theme-icon' src=${currentThemeIcon}></img>
+      <img class='header__theme-icon' src=${currentThemeIcon} alt='theme icon'></img>
     </button>
   </div>  
   `;
