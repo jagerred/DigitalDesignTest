@@ -1,0 +1,90 @@
+@import './vars.css';
+@import '/src/components/categories/categories';
+@import '/src/components/header/header';
+@import '/src/components/modal/modal';
+@import '/src/components/footer/footer';
+@import '/src/assets/style/scrollTop';
+
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.87);
+	background-color: #242424;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#app {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 1rem 1rem 1rem;
+	text-align: center;
+}
+
+.body {
+	min-width: 320px;
+	min-height: 100vh;
+	overflow-y: scroll;
+	transition: all 0.5s ease;
+	padding-bottom: 1rem;
+}
+
+.link {
+	text-decoration: none;
+	font: inherit;
+}
+
+.button {
+	padding: 0.6em 1.2em;
+	font-family: inherit;
+	cursor: pointer;
+	border-radius: 10px;
+	border: none;
+}
+
+.button:hover {
+	opacity: 0.9;
+}
+
+.button:focus-visible {
+	outline: 4px auto red;
+}
+
+.list {
+	list-style: none;
+}
+
+.input {
+	border: none;
+	border-radius: 4px;
+	padding: 0.5rem 1rem;
+}
+
+.input:focus {
+	outline: none;
+}
+
+.image {
+	width: 100%;
+	min-height: 100%;
+	object-fit: cover;
+	vertical-align: baseline;
+	line-height: 0;
+	pointer-events: none;
+	transition: all 0.5s ease;
+	background-color: rgb(158, 158, 158);
+}
+
+.hidden {
+	display: none;
+}
+
+.light-theme {
+	background-color: azure;
+	color: #131313;
+}
