@@ -267,6 +267,13 @@ export const categories = [
 				date: '01.05.2023',
 				colors: ['Синий', 'Лиловый', 'Черный', 'Белый'],
 			},
+			{
+				name: 'Apple MacBook Pro 13 2022 ',
+				photo:
+					'https://avatars.mds.yandex.net/get-mpic/4614113/img_id3461712379592206612.jpeg/orig',
+				date: '25.03.2023',
+				colors: ['Серый', 'Красный', 'Черный', 'Белый'],
+			},
 		],
 	},
 ];
